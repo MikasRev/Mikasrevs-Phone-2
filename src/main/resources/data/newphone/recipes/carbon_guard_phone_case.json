@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IRI",
+    "LDL",
+    "LLL"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_nugget" },
+    "R": { "item": "minecraft:redstone" },
+    "D": { "item": "minecraft:black_dye" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "result": { "item": "newphone:carbon_guard_phone_case" }
+}

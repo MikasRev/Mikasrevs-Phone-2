@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "newphone:item/midnight_cyber_phone_case"
+  }
+}

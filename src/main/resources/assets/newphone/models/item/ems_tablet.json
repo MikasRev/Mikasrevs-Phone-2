@@ -1,0 +1,35 @@
+{
+  "parent": "newphone:item/ems_tablet_base",
+  "overrides": [
+    {
+      "predicate": {
+        "newphone:tablet_screen_anim": 0.16
+      },
+      "model": "newphone:item/ems_tablet_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:tablet_screen_anim": 0.32
+      },
+      "model": "newphone:item/ems_tablet_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:tablet_screen_anim": 0.5
+      },
+      "model": "newphone:item/ems_tablet_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:tablet_screen_anim": 0.68
+      },
+      "model": "newphone:item/ems_tablet_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:tablet_screen_anim": 0.86
+      },
+      "model": "newphone:item/ems_tablet_boot_5"
+    }
+  ]
+}

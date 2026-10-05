@@ -1,0 +1,6 @@
+{
+  "providers": [
+    { "type": "ttf", "file": "newphone:phone_ui_semibold.ttf", "size": 16, "oversample": 4, "shift": [0, 0] },
+    { "type": "reference", "id": "minecraft:default" }
+  ]
+}

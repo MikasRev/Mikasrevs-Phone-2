@@ -1,0 +1,29 @@
+MPhone CJK SC SemiBold and MPhone CJK TC SemiBold
+
+Derived from Noto Sans CJK SC/TC, notofonts/noto-cjk commit
+f8d157532fbfaeda587e826d4cd5b21a49186f7c.
+Source: https://github.com/notofonts/noto-cjk
+
+Original font copyright:
+Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+
+Licensed under the SIL Open Font License, Version 1.1.
+The complete license accompanies these fonts in OFL-NotoSansCJK.txt.
+
+Modifications: retained all source BMP characters; instantiated weight 600;
+removed unused shaping/vertical-layout tables; renamed the derivative families
+to MPhone CJK SC and MPhone CJK TC. No Reserved Font Name is used for the
+derivative font names. The original copyright is also retained in the fonts.
+See phone_cjk_sources.json for source and output hashes and character counts.
+
+MPhone UI SemiBold and MPhone UI Bold
+
+Derived from Noto Sans (Latin, Greek, Cyrillic).
+Copyright 2022 The Noto Project Authors
+(https://github.com/notofonts/latin-greek-cyrillic)
+
+Licensed under the SIL Open Font License, Version 1.1.
+The complete license accompanies these fonts in OFL-NotoSans.txt.
+Modifications: instantiated width 100 and weights 600/700; renamed the
+derivative font families to MPhone UI. The original copyright is retained
+in both fonts. See phone_ui_sources.json for the pinned source and hashes.

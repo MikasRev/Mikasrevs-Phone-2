@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RPR",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "R": { "item": "minecraft:rabbit_hide" },
+    "P": { "item": "minecraft:pink_dye" },
+    "B": { "item": "minecraft:light_blue_dye" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "result": { "item": "newphone:bunny_block_phone_case" }
+}

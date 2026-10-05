@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "LGL",
+    "LLL"
+  ],
+  "key": {
+    "C": { "item": "minecraft:cyan_dye" },
+    "R": { "item": "minecraft:redstone" },
+    "G": { "item": "minecraft:glow_ink_sac" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "result": { "item": "newphone:midnight_cyber_phone_case" }
+}

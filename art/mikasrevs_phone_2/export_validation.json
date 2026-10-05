@@ -1,0 +1,11 @@
+{
+  "cross_object_surface_intersections": [],
+  "source_triangle_count": 2422,
+  "roundtrip_triangle_count": 2422,
+  "object_names_preserved": true,
+  "screen_separate": true,
+  "uvs_preserved": true,
+  "position_and_uv_values_preserved": true,
+  "materials_preserved": true,
+  "preview_excluded": true
+}

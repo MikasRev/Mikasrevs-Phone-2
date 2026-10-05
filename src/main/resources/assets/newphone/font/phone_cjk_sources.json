@@ -1,0 +1,19 @@
+{
+  "project": "https://github.com/notofonts/noto-cjk",
+  "commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "weight": 600,
+  "fonts": {
+    "sc": {
+      "source_sha256": "990c807e79c25662a5a9ecf7f971baeb2bf2eab9a559e5ecf15cdfdb8561d21f",
+      "sha256": "afb1be289f5fb75e5e04592cb4f122d7892c8f824d1b1dc7351f813f1ecf366b",
+      "characters": 42220,
+      "bytes": 12610084
+    },
+    "tc": {
+      "source_sha256": "6b40dd16cf1b73b5a7a0ed2472d641b60e3e85e87211abd20009f67d841425da",
+      "sha256": "06560145efdabc2fdf3bf82e77b9c552213dd8c9afd453fc20aa0e6c1886b406",
+      "characters": 42220,
+      "bytes": 12733348
+    }
+  }
+}

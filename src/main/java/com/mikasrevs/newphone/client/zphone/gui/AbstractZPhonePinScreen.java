@@ -1,0 +1,16 @@
+package com.mikasrevs.newphone.client.zphone.gui;
+
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
+import org.lwjgl.glfw.GLFW;
+
+public abstract class AbstractZPhonePinScreen extends AbstractZPhoneScreen {
+    private static final int[][] KEYS={{1,88,280},{2,150,280},{3,212,280},{4,88,352},{5,150,352},{6,212,352},{7,88,424},{8,150,424},{9,212,424},{-2,88,496},{0,150,496},{-1,212,496}};
+    private final StringBuilder pin=new StringBuilder(4);private String status="";private long statusUntil;
+    protected AbstractZPhonePinScreen(Component title){super(title);}protected abstract String heading();protected abstract String subtitle();protected abstract void onPinComplete(String pin);
+    protected final void clearPin(){pin.setLength(0);}protected final void showStatus(String value,long duration){status=value==null?"":value;statusUntil=System.currentTimeMillis()+Math.max(250L,duration);}
+    @Override public void render(GuiGraphics g,int mx,int my,float pt){renderBackground(g);drawWallpaper(g);drawStatusBar(g);drawText(g,heading(),150,92,18,0xFFFFFFFF,true);drawText(g,subtitle(),150,124,8,0xFFD8E1EC,true);for(int i=0;i<4;i++){int cx=104+i*32;fillCircle(g,x(cx),y(176),size(7),0x26FFFFFF);fillCircle(g,x(cx),y(176),size(6),0xFF34506D);if(i<pin.length())fillCircle(g,x(cx),y(176),size(4),0xFFFFFFFF);else{g.fill(x(cx)-size(4),y(176)-size(1),x(cx)+size(4),y(176)+size(1),0x90E7EEF8);g.fill(x(cx)-size(1),y(176)-size(4),x(cx)+size(1),y(176)+size(4),0x90E7EEF8);}}for(int[] key:KEYS){int value=key[0],cx=key[1],cy=key[2];boolean hover=insideCircle(mx,my,cx,cy,26);fillCircle(g,x(cx),y(cy),size(27),0x18000000);fillCircle(g,x(cx),y(cy),size(26),hover?0x95A9C4E5:0x72A1BCD8);fillCircle(g,x(cx),y(cy),size(24),hover?0xFF335174:0xFF2B4664);drawText(g,value>=0?Integer.toString(value):value==-2?"×":"⌫",cx,cy-(value==-1?8:10),value==-1?14:17,0xFFFFFFFF,true);}if(!status.isBlank()&&System.currentTimeMillis()<=statusUntil){drawRoundedRect(g,x(54),y(552),x(246),y(578),size(12),0xB91A2430);drawText(g,status,150,560,7,0xFFFFFFFF,true);}drawHomeIndicator(g);drawFrame(g);}
+    @Override public boolean mouseClicked(double mx,double my,int b){if(b==0){for(int[] key:KEYS)if(insideCircle(mx,my,key[1],key[2],29)){handleKey(key[0]);return true;}}return super.mouseClicked(mx,my,b);}
+    @Override public boolean keyPressed(int k,int s,int m){if(k>=GLFW.GLFW_KEY_0&&k<=GLFW.GLFW_KEY_9){appendDigit(k-GLFW.GLFW_KEY_0);return true;}if(k>=GLFW.GLFW_KEY_KP_0&&k<=GLFW.GLFW_KEY_KP_9){appendDigit(k-GLFW.GLFW_KEY_KP_0);return true;}if(k==GLFW.GLFW_KEY_BACKSPACE||k==GLFW.GLFW_KEY_DELETE){backspace();return true;}if(k==GLFW.GLFW_KEY_ESCAPE){onClose();return true;}return super.keyPressed(k,s,m);}
+    private void handleKey(int v){if(v==-2){onClose();return;}if(v==-1){backspace();return;}appendDigit(v);}private void appendDigit(int d){if(pin.length()>=4)return;pin.append((char)('0'+d));if(pin.length()==4)onPinComplete(pin.toString());}private void backspace(){if(pin.length()>0)pin.deleteCharAt(pin.length()-1);}private boolean insideCircle(double mx,double my,float cx,float cy,float radius){double dx=mx-x(cx),dy=my-y(cy),r=size(radius);return dx*dx+dy*dy<=r*r;}
+}

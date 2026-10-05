@@ -1,0 +1,146 @@
+{
+  "credit": "Blender cosmetic shell model_02; shared MPhone screen/poses",
+  "loader": "forge:obj",
+  "model": "newphone:models/phone/model_02/phone.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": true,
+  "emissive_ambient": true,
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "atlas": "newphone:phone/model_02/atlas",
+    "screen": "newphone:item/z_phone_screen_0",
+    "black": "newphone:item/z_phone_black",
+    "particle": "newphone:item/z_phone_body"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        -1.2,
+        0.4,
+        -2.2
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        1.2,
+        0.4,
+        -2.2
+      ],
+      "scale": [
+        0.82,
+        0.82,
+        0.82
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        148,
+        0
+      ],
+      "translation": [
+        4.25,
+        -2.5,
+        -16
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        1,
+        154,
+        1
+      ],
+      "translation": [
+        10,
+        -2.25,
+        -19
+      ],
+      "scale": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        0,
+        -12
+      ],
+      "translation": [
+        1,
+        -5.25,
+        -3.5
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -6,
+        -142,
+        0
+      ],
+      "translation": [
+        -8.75,
+        -6.5,
+        0
+      ],
+      "scale": [
+        1.52,
+        1.52,
+        1.52
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        13,
+        7
+      ]
+    },
+    "fixed": {
+      "translation": [
+        4.5,
+        -6.2,
+        8.8
+      ],
+      "scale": [
+        1.48,
+        1.48,
+        1.48
+      ]
+    }
+  }
+}

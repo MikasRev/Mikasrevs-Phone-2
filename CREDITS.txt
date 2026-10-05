@@ -1,0 +1,5 @@
+MikasRevs Phone 2 (MRPhone / MPhone)
+Project author: MikasRevs
+
+See THIRD_PARTY_NOTICES.md for fonts, Gradle and Forge MDK attribution.
+Original Forge MDK credits are preserved in licenses/Forge-MDK-CREDITS.txt.

@@ -1,0 +1,24 @@
+package com.mikasrevs.newphone.client.zphone.gui;
+
+import com.mikasrevs.newphone.client.gui.PhoneModernText;
+import com.mikasrevs.newphone.client.settings.PhoneSettingsStore;
+import com.mikasrevs.newphone.client.zphone.PhoneNavigationState;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.network.chat.Component;
+import org.lwjgl.glfw.GLFW;
+
+public final class ZPhoneGemPairsScreen extends AbstractZPhoneScreen {
+    private static final int GRID_LEFT=31,GRID_TOP=130,CARD=52,GAP=10;private static final int[] COLORS={0xFF4C9DFF,0xFF31D17C,0xFFFF8A4C,0xFF9C6CFF,0xFFFF5F87,0xFF38D2D2,0xFFFFD45C,0xFF7FC95A};
+    private final int[] values=new int[16];private final boolean[] revealed=new boolean[16],matched=new boolean[16];private int first=-1,second=-1,moves,pairs,bestMoves;private long hideAt;
+    public ZPhoneGemPairsScreen(){super(Component.literal("Gem Pairs"));restart();}
+    @Override public void render(GuiGraphics g,int mouseX,int mouseY,float partialTick){renderBackground(g);g.fill(x(3),y(8),x(297),y(606),0xFF17100B);fillCircle(g,x(246),y(88),size(94),0x29FF9B44);fillCircle(g,x(43),y(485),size(120),0x1CFF5E8B);drawStatusBar(g);drawBackButton(g,PhoneSettingsStore.text("Geri","Back"));PhoneModernText.drawColored(g,"Gem Pairs",x(61),y(52),size(18),0xFFFFFFFF);PhoneModernText.drawColored(g,PhoneSettingsStore.text("Hamle ", "Moves ")+moves,x(25),y(92),size(9),0xFFFFE6D4);PhoneModernText.drawColored(g,PhoneSettingsStore.text("Çift ", "Pairs ")+pairs+"/8",x(215),y(92),size(9),0xFFFFC79E);drawRoundedRect(g,x(21),y(116),x(279),y(392),size(24),0xFF2A1B14);for(int i=0;i<16;i++)drawCard(g,i,mouseX,mouseY);drawRoundedRect(g,x(45),y(418),x(255),y(476),size(22),0xFF2B201B);String status=pairs==8?PhoneSettingsStore.text("Tüm eşleşmeleri buldun!","You found every pair!"):PhoneSettingsStore.text("Aynı taşları eşleştir","Match the same gems");PhoneModernText.drawCenteredColored(g,status,x(150),y(434),size(10),0xFFFFFFFF);if(bestMoves>0)PhoneModernText.drawCenteredColored(g,PhoneSettingsStore.text("En iyi: ", "Best: ") + bestMoves + PhoneSettingsStore.text(" hamle", " moves"),x(150),y(457),size(7),0xFFB9A797);drawRoundedRect(g,x(75),y(500),x(225),y(548),size(24),0xFFF08335);PhoneModernText.drawCenteredColored(g,PhoneSettingsStore.text("Yeni Oyun","New Game"),x(150),y(514),size(11),0xFFFFFFFF);drawHomeIndicator(g);drawFrame(g);}
+    private void drawCard(GuiGraphics g,int i,int mx,int my){int col=i%4,row=i/4,left=GRID_LEFT+col*(CARD+GAP),top=GRID_TOP+row*(CARD+GAP);boolean open=revealed[i]||matched[i],hover=inside(mx,my,left,top,left+CARD,top+CARD);if(!open){drawRoundedRect(g,x(left),y(top),x(left+CARD),y(top+CARD),size(14),hover?0xFF594035:0xFF463229);drawRoundedRect(g,x(left+4),y(top+4),x(left+CARD-4),y(top+CARD-4),size(11),0xFF2F241F);PhoneModernText.drawCenteredColored(g,"?",x(left+CARD/2),y(top+14),size(18),0xFFD8C1B1);return;}int c=COLORS[values[i]];drawRoundedRect(g,x(left),y(top),x(left+CARD),y(top+CARD),size(14),matched[i]?0xFFF4E8DF:0xFFFFFFFF);int cx=left+CARD/2,cy=top+CARD/2;fillCircle(g,x(cx),y(cy),size(17),c);g.fill(x(cx-8),y(cy-2),x(cx+8),y(cy+3),0x55FFFFFF);PhoneModernText.drawCenteredColored(g,Character.toString((char)('A'+values[i])),x(cx),y(cy-8),size(12),0xFFFFFFFF);}
+    private void restart(){List<Integer>s=new ArrayList<>();for(int i=0;i<8;i++){s.add(i);s.add(i);}Collections.shuffle(s);for(int i=0;i<16;i++){values[i]=s.get(i);revealed[i]=false;matched[i]=false;}first=second=-1;hideAt=0;moves=pairs=0;}
+    private void choose(int i){if(i<0||i>=16||matched[i]||revealed[i]||second>=0||pairs==8)return;revealed[i]=true;if(first<0){first=i;return;}second=i;moves++;if(values[first]==values[second]){matched[first]=matched[second]=true;pairs++;first=second=-1;if(pairs==8&&(bestMoves==0||moves<bestMoves))bestMoves=moves;}else hideAt=System.currentTimeMillis()+720L;}
+    @Override public void tick(){super.tick();if(second>=0&&hideAt>0&&System.currentTimeMillis()>=hideAt){revealed[first]=revealed[second]=false;first=second=-1;hideAt=0;}}
+    @Override public boolean mouseClicked(double mx,double my,int button){if(button!=0)return super.mouseClicked(mx,my,button);if(handleBackButton(mx,my))return true;if(inside(mx,my,75,500,225,548)){restart();return true;}for(int i=0;i<16;i++){int col=i%4,row=i/4,left=GRID_LEFT+col*(CARD+GAP),top=GRID_TOP+row*(CARD+GAP);if(inside(mx,my,left,top,left+CARD,top+CARD)){choose(i);return true;}}return super.mouseClicked(mx,my,button);}
+    @Override public boolean keyPressed(int keyCode,int scanCode,int modifiers){if(keyCode==GLFW.GLFW_KEY_R){restart();return true;}if(keyCode==GLFW.GLFW_KEY_ESCAPE){PhoneNavigationState.backOrHome(minecraft);return true;}return super.keyPressed(keyCode,scanCode,modifiers);}
+}

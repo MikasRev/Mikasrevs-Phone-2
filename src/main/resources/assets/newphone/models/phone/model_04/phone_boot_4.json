@@ -1,0 +1,6 @@
+{
+  "parent": "newphone:phone/model_04/phone_base",
+  "textures": {
+    "screen": "newphone:item/z_phone_screen_4"
+  }
+}

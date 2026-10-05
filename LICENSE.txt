@@ -1,0 +1,78 @@
+MRPhone Source-Available License 1.0
+Identifier: LicenseRef-MRPhone-Source-Available-1.0
+Copyright (c) 2026 MikasRevs. All rights reserved except as granted below.
+
+1. Scope
+
+This license covers the copyright holder's own MikasRevs Phone 2 (MRPhone /
+MPhone) code, documentation and assets supplied with this license, including
+original and modified source and compiled forms (the "Project"). Separately
+licensed third-party components are excluded; see THIRD_PARTY_NOTICES.md.
+
+2. Permitted use
+
+You may download and inspect the Project, build it locally, modify it for
+private use, and run official releases or private builds on Minecraft clients
+and servers. You may keep private copies and backups. You may submit issues,
+patches and pull requests to the official project.
+
+Modpacks may reference the official project and obtain official files through
+platform features authorized by the copyright holder and the relevant platform.
+This does not grant permission to independently host, mirror or bundle copies
+of the Project's files.
+
+3. Redistribution requires permission
+
+Except for sections 2 and 4 or rights granted independently, you must obtain
+the copyright holder's prior written permission before publishing, uploading,
+redistributing, selling, mirroring or bundling the Project or portions of it.
+This applies to both source and compiled forms, whether original, modified,
+renamed or incorporated into another project, and whether free or paid.
+
+In particular, uploading original or modified mod releases to CurseForge,
+Modrinth, GitHub Releases, another mod site, a file host or a website is not
+permitted without that written permission. Attribution alone is not permission.
+A permission grant applies only to the scope specified in writing.
+
+4. Public source hosting and contributions
+
+When the copyright holder publishes the source on GitHub, this license does
+not restrict the rights granted by GitHub's applicable Terms of Service,
+including viewing and making source forks through GitHub's functionality.
+Source forks may be used to propose contributions to the official project.
+Preserve the Project's license and copyright notices in source forks.
+
+A source fork or contribution does not by itself authorize a separate mod
+release, redistribution outside those platform rights, or publication of
+compiled builds. CI builds may be used for verification; public binary
+publication still requires permission under section 3.
+
+5. Notices and ownership
+
+Do not remove applicable copyright or license notices. Do not present yourself
+as the original author or present an unofficial build as an official release.
+No trademark ownership or right to represent the copyright holder is granted.
+
+6. Third-party and independent rights
+
+Third-party fonts, build tools, dependencies and other separately licensed
+components retain their own terms. This license does not restrict the rights
+granted by those licenses, applicable law, platform agreements accepted by the
+copyright holder, or separate written permission. It does not withdraw rights
+previously granted under another license.
+
+7. Warranty and liability
+
+The Project is provided as is, without warranties of merchantability, fitness
+for a particular purpose or noninfringement. To the extent permitted by law,
+the copyright holder is not liable for claims, damages or other liability
+arising from use of the Project.
+
+8. Permission requests
+
+Contact the copyright holder through the official project's repository or
+author profile to request written redistribution permission. No response is
+not a grant of permission.
+
+This is a custom source-available license, not an OSI-approved open-source
+license. Rights not expressly granted remain reserved.

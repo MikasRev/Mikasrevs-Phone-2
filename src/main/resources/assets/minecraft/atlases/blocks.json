@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "newphone:phone/model_01/atlas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "newphone:phone/model_02/atlas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "newphone:phone/model_03/atlas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "newphone:phone/model_04/atlas"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "newphone:phone/model_05/atlas"
+    }
+  ]
+}

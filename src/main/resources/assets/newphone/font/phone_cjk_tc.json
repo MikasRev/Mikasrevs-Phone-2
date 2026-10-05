@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "newphone:phone_cjk_tc.ttf",
+      "size": 12,
+      "oversample": 4,
+      "shift": [0, 0]
+    },
+    { "type": "reference", "id": "minecraft:default" }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible MRPhone problem.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the expected behavior and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include singleplayer/multiplayer, the app, device and relevant actions.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions and environment
+      description: MRPhone, Minecraft, Forge, operating system, and relevant MCEF/voice chat/economy versions.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or sanitized logs
+      description: Remove private player data, addresses, tokens and personal paths before posting logs. For a security issue, use private reporting if the repository enables it.

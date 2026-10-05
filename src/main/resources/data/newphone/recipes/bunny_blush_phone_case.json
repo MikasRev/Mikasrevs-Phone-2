@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RDR",
+    "L L",
+    "LLL"
+  ],
+  "key": {
+    "R": { "item": "minecraft:rabbit_hide" },
+    "D": { "item": "minecraft:pink_dye" },
+    "L": { "item": "minecraft:leather" }
+  },
+  "result": { "item": "newphone:bunny_blush_phone_case" }
+}

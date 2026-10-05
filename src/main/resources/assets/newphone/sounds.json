@@ -1,0 +1,28 @@
+{
+  "kamerasesi": {
+    "sounds": ["newphone:kamerasesi"]
+  },
+  "message_receive": {
+    "sounds": ["newphone:message_receive"]
+  },
+  "message_send": {
+    "sounds": ["newphone:message_send"]
+  },
+  "telefonacma": {
+    "sounds": ["newphone:telefonacma"]
+  },
+  "telefonbildirim": {
+    "sounds": ["newphone:telefonbildirim"]
+  },
+  "telefongidenarama": {
+    "sounds": [
+      {
+        "name": "newphone:telefongidenarama",
+        "stream": true
+      }
+    ]
+  },
+  "telefontitresim": {
+    "sounds": ["newphone:telefontitresim"]
+  }
+}

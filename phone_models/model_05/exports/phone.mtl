@@ -1,0 +1,41 @@
+newmtl atlas
+Ka 0 0 0
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #atlas
+
+newmtl screen
+Ka 1 1 1
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #screen
+
+newmtl black
+Ka 0 0 0
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #black
+
+newmtl case
+Ka 0 0 0
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #case
+
+newmtl case_accent
+Ka 0 0 0
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #case_accent
+
+newmtl case_logo
+Ka 0 0 0
+Kd 1 1 1
+d 1
+forge_TintIndex -1
+map_Kd #case_logo

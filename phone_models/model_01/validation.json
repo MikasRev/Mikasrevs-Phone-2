@@ -1,0 +1,489 @@
+{
+  "id": "model_01",
+  "blender": "4.5.3 LTS",
+  "atlas": [
+    512,
+    512
+  ],
+  "axes": {
+    "up": "+Z",
+    "front": "-Y"
+  },
+  "screen_bounds": {
+    "x": [
+      -0.446,
+      0.446
+    ],
+    "y": -0.0475,
+    "z": [
+      -0.932,
+      0.91
+    ]
+  },
+  "objects": {
+    "Phone_Body": {
+      "triangles": 180,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.1601203705690143,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    },
+    "phone_screen": {
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.006572257248545196,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "GUI_UV"
+      ]
+    },
+    "Front_Camera": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.7639994353887927e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Earpiece": {
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 7.113336197908767e-07,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    },
+    "Power_Button": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.000127685235720051,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    },
+    "Volume_Buttons": {
+      "triangles": 88,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.00014506659600336592,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    },
+    "Bottom_Details": {
+      "triangles": 240,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.0013789648444153e-05,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    },
+    "Camera_Bump": {
+      "triangles": 92,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0090060105215054,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Camera_Rings": {
+      "triangles": 576,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.000781831833096951,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Camera_Lens_01": {
+      "triangles": 60,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0003453820017180089,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Lens_Core_01": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.1839820802924062e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Camera_Lens_02": {
+      "triangles": 60,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.00034538194886053677,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Lens_Core_02": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.1839819329873187e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Camera_Lens_03": {
+      "triangles": 60,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.00034538197630822206,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Lens_Core_03": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.1839814751693598e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Flash_Rim": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.7057256775843626e-05,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Flash": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.8749879250731345e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Focus_Sensor": {
+      "triangles": 44,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.9439971858302437e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "AtlasUV"
+      ]
+    },
+    "Logo": {
+      "triangles": 28,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.3833164240139396e-06,
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "uv_layers": [
+        "UVMap",
+        "AtlasUV"
+      ]
+    }
+  },
+  "triangles": 1776
+}

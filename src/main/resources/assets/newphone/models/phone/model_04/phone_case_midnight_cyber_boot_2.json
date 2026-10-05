@@ -1,0 +1,6 @@
+{
+  "parent": "newphone:phone/model_04/phone_case_midnight_cyber",
+  "textures": {
+    "screen": "newphone:item/z_phone_screen_2"
+  }
+}

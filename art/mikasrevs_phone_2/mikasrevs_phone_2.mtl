@@ -1,0 +1,92 @@
+# Blender 4.5.3 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl Display_|_blank_replaceable_GUI
+Ns 656.099976
+Ka 0.080000 0.080000 0.080000
+Kd 0.006000 0.009000 0.013000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl Flash_|_warm_ceramic
+Ns 409.599976
+Ka 0.050000 0.050000 0.050000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Graphite_|_ceramic_back
+Ns 384.399994
+Ka 0.350000 0.350000 0.350000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Graphite_|_satin_metal
+Ns 504.100067
+Ka 0.760000 0.760000 0.760000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl MIKASREVS_|_subdued_pixel_wordmark
+Ns 384.399994
+Ka 0.350000 0.350000 0.350000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Machined_graphite_|_edge_bevel
+Ns 532.900024
+Ka 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Obsidian_|_bezel_and_cavities
+Ns 462.399994
+Ka 0.120000 0.120000 0.120000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Optical_glass_|_midnight_blue
+Ns 640.000000
+Ka 0.180000 0.180000 0.180000
+Ks 0.140000 0.140000 0.140000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png
+
+newmtl Optical_iris_|_muted_blue
+Ns 577.599976
+Ka 0.250000 0.250000 0.250000
+Ks 0.180000 0.180000 0.180000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd mikasrevs_phone_2_atlas.png

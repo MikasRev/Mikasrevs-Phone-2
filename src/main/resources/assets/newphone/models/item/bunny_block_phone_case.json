@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "newphone:item/bunny_block_phone_case"
+  }
+}

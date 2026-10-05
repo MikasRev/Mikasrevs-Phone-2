@@ -1,0 +1,6 @@
+{
+    "parent":  "newphone:item/z_phone_case_carbon_guard",
+    "textures":  {
+                     "screen":  "newphone:item/z_phone_screen_2"
+                 }
+}

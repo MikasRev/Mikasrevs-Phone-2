@@ -1,0 +1,6 @@
+{
+  "parent": "newphone:phone/model_05/phone_case_forest_leather",
+  "textures": {
+    "screen": "newphone:item/z_phone_screen_5"
+  }
+}

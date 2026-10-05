@@ -1,0 +1,18 @@
+{
+  "project": "https://github.com/google/fonts",
+  "commit": "9710da1eacb3be272583c3224dcb70f9da6eadbb",
+  "source": "ofl/notosans/NotoSans[wdth,wght].ttf",
+  "source_sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+  "fonts": {
+    "semibold": {
+      "weight": 600,
+      "characters": 3094,
+      "sha256": "367ab93376aeae881da951f8bc81727f95d38bdbfab571a9d4f1700129b63e04"
+    },
+    "bold": {
+      "weight": 700,
+      "characters": 3094,
+      "sha256": "4f76d72611c93c173c7814295b5d1b56d94b6b1cc2fb5374f2d942b1e59ead92"
+    }
+  }
+}

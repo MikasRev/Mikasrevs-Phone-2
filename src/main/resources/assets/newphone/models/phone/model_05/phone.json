@@ -1,0 +1,281 @@
+{
+  "parent": "newphone:phone/model_05/phone_base",
+  "overrides": [
+    {
+      "predicate": {
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_call"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 1,
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_blush_call"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 2,
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_carbon_guard_call"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 3,
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_forest_leather_call"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 4,
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_midnight_cyber_call"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:screen_anim": 0.16
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_boot_1"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:screen_anim": 0.32
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_boot_2"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:screen_anim": 0.5
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_boot_3"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:screen_anim": 0.68
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_boot_4"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:screen_anim": 0.86
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_boot_5"
+    },
+    {
+      "predicate": {
+        "newphone:case_style": 5,
+        "newphone:call_pose": 1
+      },
+      "model": "newphone:phone/model_05/phone_case_bunny_block_call"
+    }
+  ]
+}

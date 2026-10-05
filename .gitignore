@@ -1,0 +1,68 @@
+# Build output and local Gradle state
+/build/
+/.gradle/
+/mcmodsrepo/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE configuration
+/.idea/
+/.vscode/
+**/bin/
+**/out/
+*.launch
+*.ipr
+*.iws
+*.iml
+.settings/
+.metadata/
+.classpath
+.project
+/eclipse/
+
+# Minecraft development instances, downloaded Chromium and runtime data
+/run/
+/run-data/
+**/logs/
+**/crash-reports/
+**/mcef-libraries/
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+gradle-local.properties
+local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+secrets.json
+
+# Local reference photos, archives and editor backups
+/art/iphone_duo/references/
+*.zip
+*.7z
+*.tar.gz
+*.blend1
+*.blend2
+*.bak
+*.tmp
+*~
+__pycache__/
+*.pyc
+node_modules/
+src/generated/**/.cache/
+Thumbs.db
+.DS_Store
+
+# Keep the editable .blend/.bbmodel files and .obj/.mtl phone meshes tracked.
